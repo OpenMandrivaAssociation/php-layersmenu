@@ -12,6 +12,7 @@ URL:		http://phplayersmenu.sourceforge.net/
 Source0:	phplayersmenu-%version-%preversion.tar.bz2
 Requires:	php
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 PHP Layers Menu is a hierarchical menu system to prepare "on the fly" DHTML 
