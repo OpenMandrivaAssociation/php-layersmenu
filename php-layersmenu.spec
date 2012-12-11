@@ -46,3 +46,41 @@ cp -aRf *.php *html DUMPS images lib libjs LOGOS menuicons menuimages templates 
 %dir %{_datadir}/%name
 %{_datadir}/%name/*
 
+
+
+%changelog
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 3.2.0-8mdv2011.0
++ Revision: 679259
+- mass rebuild
+
+* Sun Jul 19 2009 Raphaël Gertz <rapsys@mandriva.org> 3.2.0-7mdv2010.0
++ Revision: 397331
+- Rebuild
+
+* Wed Dec 31 2008 Oden Eriksson <oeriksson@mandriva.com> 3.2.0-6mdv2009.1
++ Revision: 321863
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 3.2.0-5mdv2009.0
++ Revision: 258995
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 3.2.0-4mdv2009.0
++ Revision: 246870
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 3.2.0-2mdv2008.1
++ Revision: 140728
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Aug 19 2007 Oden Eriksson <oeriksson@mandriva.com> 3.2.0-2mdv2008.0
++ Revision: 66604
+- use the %%mrel macro
+
+
+* Thu Jan 05 2006 <aginies@mandriva.com> 3.2.0-1mdk
+- first release
+
