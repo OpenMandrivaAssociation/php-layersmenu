@@ -5,7 +5,7 @@
 Summary:	Hierarchical menu system to prepare "on the fly" DHTML menus
 Name:		php-layersmenu
 Version:	3.2.0
-Release:	%mkrel 8
+Release:	9
 License:	GPL
 Group:		Networking/Other
 URL:		http://phplayersmenu.sourceforge.net/
