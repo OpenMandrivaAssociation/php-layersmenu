@@ -8,7 +8,7 @@ Version:	3.2.0
 Release:	9
 License:	GPL
 Group:		Networking/Other
-URL:		http://phplayersmenu.sourceforge.net/
+URL:		https://phplayersmenu.sourceforge.net/
 Source0:	phplayersmenu-%version-%preversion.tar.bz2
 Requires:	php
 BuildArch:	noarch
